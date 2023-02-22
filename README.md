@@ -36,6 +36,50 @@ date || credit || debit || balance
 
 Once you have completed the challenge and feel happy with your solution, here's a form to help you reflect on the quality of your code: https://docs.google.com/forms/d/1Q-NnqVObbGLDHxlvbUfeAC7yBCf3eCjTmz6GOqC9Aeo/edit
 
+## Set Up locally
+
+# Setting up a JavaScript project w/ Jest
+
+Learn to set up a new JavaScript project with NPM and Jest.
+
+## Concise guidance
+
+We use NPM (Node package manager) to setup and manage a JavaScript project, and its dependencies (libraries or packages).
+
+This guidance assumes you have NVM (the Node version manager) installed - if not, head to [this page](../bites/01_running_javascript.md) to install it first.
+
+```bash
+
+# Go to your terminal, and head to where you would like to store your repository.
+
+#Copy and past this repository. In your terminal:
+
+$ git clone [insert repo address]
+
+# Setup our environment to use node latest version
+$ nvm use node
+
+# Initialise the NPM project (this will create a file package.json)
+$ npm init -y
+
+# Add the jest package to our project
+# (this will update package.json and package-lock.json)
+$ npm add jest
+
+# Also install jest "globally"
+# (this is so we can run the `jest` command)
+$ npm install -g jest
+
+# Run our tests //should dail is there are no tests written
+$ jest 
+
+OR
+
+$ jest --passWithNoTests
+```
+
+
+
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
