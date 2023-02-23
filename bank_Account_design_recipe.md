@@ -22,7 +22,7 @@ print statement
 bank_account = will be able to withdraw or deposit then push each transaction to transactions
 bank_balance = 0 ->> will hold the balance
 
-transactions = will hold all the transactions ->> date, amount, type: string// either credit or debit
+transaction = will hold trnasaction as an object ->> date, amount, type: string// either credit or debit
 
 bank_statement = will format the transactions and bank balance
 

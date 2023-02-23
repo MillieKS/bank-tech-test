@@ -76,6 +76,10 @@ $ jest
 OR
 
 $ jest --passWithNoTests
+
+## extra bits
+
+https://www.npmjs.com/package/jest-date-mock 
 ```
 
 
